@@ -1,0 +1,34 @@
+@import "./_variables";
+
+.cars__sedan{
+    background: $Brightorange;
+    border-radius: 8px 0px 0px 8px;
+    @include breakpoint(768px){
+        border-radius: 8px 8px 0px 0px;
+    }
+}
+
+.cars__suv{
+    background: $Darkcyan;
+}
+
+.cars__luxury{
+    background: $Verydarkcyan;
+    border-radius: 0px 8px 8px 0px;
+    @include breakpoint(768px){
+        border-radius: 0px 0px 8px 8px;
+    }
+}
+
+
+// !=====================================================================
+
+.sedan-btn{
+    color: $Brightorange;
+}
+.suv-btn{
+    color: $Darkcyan;
+}
+.luxury-btn{
+    color: $Verydarkcyan;
+}
